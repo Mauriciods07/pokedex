@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --text-font: 'Press Start 2P', cursive;
+}
+
+body {
+    background: linear-gradient(112deg, rgb(200, 240, 252) 0%, rgb(242, 204, 249) 100%);
+}
+
+.title {
+    text-align: center;
+}
+
+.title img {
+    width: 50vw;
+}
+
+/* searchbar */
+.main {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+.main input {
+    font-family: var(--text-font);
+    width: 50vw;
+    height: 8vh;
+    border: 3px solid #a5eaff;
+    border-radius: 10px;
+    background-color: #cff0fa;
+    backdrop-filter: blur(50px);
+    padding-left: 20px;
+}
+
+.btn-search {
+    position: absolute;
+    left: 90%;
+    width: 8vw;
+    height: 8vh;
+    border: 3px solid #a5eaff;
+    background-color: #cff0fa;
+    border-left: none;
+    border-radius: 0px 10px 10px 0px ;
+    backdrop-filter: blur(50px);
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 3vw;
+}
+
+.rotom img {
+    width: 40vw;
+    max-width: fit-content;
+    position: absolute;
+    z-index: -1;
+    bottom: 5vh;
+}
+
+.dialogue-box {
+    font-family: var(--text-font);
+    font-size: 15px;
+    line-height: 30px;
+    border: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    outline: 3px solid white;
+    box-shadow: 0 0 0 5px black;
+    background-color: white;
+    width: 40vw;
+    height: fit-content;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+    bottom: 20%;
+    display: none;
+}

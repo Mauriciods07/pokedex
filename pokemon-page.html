@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/style-pages.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-section logo">
+            <a href="index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1200px-International_Pokémon_logo.svg.png" alt="">
+            </a>
+        </div>
+        <div class="nav-section search-section">
+            <div class="searchbar">
+                <input type="text" class="searcher" placeholder="Escribe el nombre del pokémon...">
+                <a href="pokemon-page.html">
+                    <button href="pokemon-page.html" class="btn-search">
+                        <img src="assets/img/loupe.png" alt="" class="search-icon">
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="layer">
+            <div class="name">
+                <h1 id="pokemon-name" class="pokemon-title"></h1>
+                <h2 id="pokemon-number" class="pokemon-title"></h2>
+            </div>
+
+            <div class="pokedex-div">
+                <img src="assets/img/pokedex.png" alt="" id="pokedex">
+                <div id="asset" class="pokedex-blocks"></div>
+                <div id="pokemon-info" class="pokedex-blocks"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/pokemon.js"></script>
+</body>
+</html>
